@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nested List</title>
+    <link rel="stylesheet" href="ACTIVITY 6.css" />
+  </head>
+  <body>
+    <h2>HOME</h2>
+    <h2>ABOUT US</h2>
+
+    <ul>
+      <li>
+        <strong>MISSION</strong>
+        <p>
+          <b>
+            To protect and promote the right of every Filipino to quality,
+            equitable, culture-based, and complete basic education.
+          </b>
+        </p>
+      </li>
+
+      <li>
+        <strong>VISION</strong>
+        <p>
+          <i>
+            Cultivating passionate, competent Filipino citizens who contribute
+            to nation-building, supported by continuous institutional
+            improvement to serve.
+          </i>
+        </p>
+      </li>
+    </ul>
+
+    <ul>
+      <li>
+        <strong>ACADEMICS</strong>
+        <ul>
+          <li>ICT</li>
+          <li>STEM</li>
+          <li>HUMMS</li>
+          <li>SMAW</li>
+          <li>CSS</li>
+          <li>H.E</li>
+        </ul>
+      </li>
+    </ul>
+
+    <ul>
+      <li>
+        <strong>PROGRAMMING LANGUAGE</strong>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>C#</li>
+          <li>JAVA</li>
+        </ul>
+      </li>
+    </ul>
+
+    <ol type="A">
+      <li>Learn HTML</li>
+      <li>Learn CSS</li>
+      <li>Learn JavaScript</li>
+    </ol>
+
+    <ol type="1" start="5">
+      <li>Practice daily</li>
+      <li>Build small projects</li>
+      <li>Ask for feedback</li>
+    </ol>
+
+    <ul list-style type="circle">
+      <li>Design</li>
+      <li>Develop</li>
+      <li>Deploy</li>
+    </ul>
+
+    <ul list- style type="square">
+      <li>Creativity</li>
+      <li>Consistency</li>
+      <li>Curiosity</li>
+    </ul>
+
+    <section class="contact-section">
+      <h2>CONTACT</h2>
+      <p>Feel free to reach out for questions or support.</p>
+      <ul>
+        <li>Email: recianjamess@gmail.com </li>
+        <li>Phone: +639508600736</li>
+        <li>Address: New Lower bicutan Taguig.Philippines</li>
+      </ul>
+    </section>
+  </body>
+</html>
