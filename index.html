@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Letter ❤️</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, sans-serif;
+        }
+
+        body{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            height:100vh;
+            background:linear-gradient(135deg,#ff758c,#ff7eb3);
+            overflow:hidden;
+        }
+
+        .heart{
+            position:absolute;
+            color:white;
+            font-size:25px;
+            animation:float 8s linear infinite;
+        }
+
+        .heart:nth-child(1){left:10%;animation-delay:0s;}
+        .heart:nth-child(2){left:30%;animation-delay:2s;}
+        .heart:nth-child(3){left:50%;animation-delay:4s;}
+        .heart:nth-child(4){left:70%;animation-delay:6s;}
+        .heart:nth-child(5){left:90%;animation-delay:1s;}
+
+        @keyframes float{
+            from{
+                transform:translateY(100vh);
+                opacity:0;
+            }
+            to{
+                transform:translateY(-120vh);
+                opacity:1;
+            }
+        }
+
+        .letter{
+            width:400px;
+            background:#fff;
+            padding:30px;
+            border-radius:20px;
+            text-align:center;
+            box-shadow:0 10px 25px rgba(0,0,0,.3);
+            animation:fadeIn 2s;
+            z-index:1;
+        }
+
+        h1{
+            color:#ff4d6d;
+            margin-bottom:15px;
+        }
+
+        p{
+            color:#555;
+            line-height:1.8;
+            margin:10px 0;
+        }
+
+        h2{
+            color:#e63946;
+            margin-top:20px;
+        }
+
+        @keyframes fadeIn{
+            from{
+                opacity:0;
+                transform:scale(.8);
+            }
+            to{
+                opacity:1;
+                transform:scale(1);
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="heart">❤️</div>
+<div class="heart">💖</div>
+<div class="heart">💕</div>
+<div class="heart">💘</div>
+<div class="heart">💝</div>
+
+<div class="letter">
+    <h1>💌 My Love 💌</h1>
+
+    <p>Dear Love,</p>
+
+    <p>
+        Every moment with you is a beautiful memory.
+        Your smile brightens my world, and your love
+        fills my heart with happiness.
+    </p>
+
+    <p>
+        Thank you for being my greatest blessing.
+        I promise to love you today, tomorrow,
+        and forever.
+    </p>
+
+    <h2>❤️ I Love You Forever ❤️</h2>
+</div>
+
+</body>
+</html>
